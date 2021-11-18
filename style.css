@@ -1,0 +1,33 @@
+body{
+    background-color: plum;
+}
+
+#show_sketch{
+    float:right;
+}
+
+h1{
+    background-color: rgb(152, 225, 235);
+    color: mediumvioletred;
+}
+
+canvas{
+    background-color: snow;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: pink;
+    animation-name: avani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes avani{
+    from{box-shadow: 1px 1px 100px rgb(0, 0, 241);}
+    to{box-shadow: 1px 1px 100px rgb(255, 0, 0);}
+}
+
+p{
+    font-size: 25px;
+    padding-top: 10px;
+}
